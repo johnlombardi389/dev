@@ -41,19 +41,16 @@ const Skills = () => {
       <h2>Skills</h2>
       <SkillsList>
         <SkillItem>
-          <SiHtml5 /> HTML
-        </SkillItem>
-        <SkillItem>
-          <SiCss3 /> CSS
+          <SiReact /> React
         </SkillItem>
         <SkillItem>
           <SiJavascript /> JavaScript
         </SkillItem>
         <SkillItem>
-          <SiReact /> React
+          <SiHtml5 /> HTML
         </SkillItem>
         <SkillItem>
-          <img src={Mjml} alt="MJML Logo" /> MJML
+          <SiCss3 /> CSS
         </SkillItem>
         <SkillItem>
           <SiTailwindcss /> Tailwind CSS
@@ -65,7 +62,13 @@ const Skills = () => {
           <SiBootstrap /> Bootstrap
         </SkillItem>
         <SkillItem>
+          <img src={Mjml} alt="MJML Logo" /> MJML
+        </SkillItem>
+        <SkillItem>
           <SiPython /> Python
+        </SkillItem>
+        <SkillItem>
+          <SiDjango /> Django
         </SkillItem>
         <SkillItem>
           <SiAdobephotoshop /> Photoshop
