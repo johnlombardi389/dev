@@ -9,10 +9,12 @@ const About = () => {
         <AboutText>
           <h2>Hey, it's me! I'm John</h2>
           <p>
-            An HTML Email Developer dedicated to crafting impactful digital
+            A Front-End Web Developer dedicated to crafting impactful digital
             communication experiences. With a keen eye for detail and a deep
-            understanding of email design principles, I specialize in
-            transforming design concepts into polished HTML email campaigns.
+            understanding of design principles, I specialize in transforming
+            design concepts into responsive, accessible, and high-quality user
+            experiences. I love making websites and apps that just make your day
+            better.
           </p>
         </AboutText>
         <AboutList>
@@ -20,8 +22,8 @@ const About = () => {
             <FaLaptopCode />
             <p>
               My professional journey prioritizes continuous growth and
-              learning. I dedicate myself to refining skills and keeping up with
-              email development's latest trends and technologies.
+              learning. I dedicate myself to refining my skills and keeping up
+              with the latest industry trends and best practices.
             </p>
           </AboutListItem>
           <AboutListItem>
@@ -30,23 +32,14 @@ const About = () => {
               My career path combines design and coding, offering a distinctive
               outlook on projects. Originally a product designer, I seamlessly
               transitioned to development. This enables me to easily translate
-              design mockups into HTML emails.
+              design mockups into websites, applications, and emails.
             </p>
           </AboutListItem>
           <AboutListItem>
             <FaBook />
             <p>
               I also love to cook and you'll often find me experimenting in the
-              kitchen. I even developed an app, Recipe Ready, to help find new
-              recipes based on the ingredients you have at home. Feel free to
-              check out the{" "}
-              <a
-                href="https://github.com/johnlombardi389/recipe-ready"
-                target="_blank"
-              >
-                project link
-              </a>
-              .
+              kitchen.
             </p>
           </AboutListItem>
         </AboutList>
