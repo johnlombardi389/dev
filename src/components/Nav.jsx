@@ -7,28 +7,40 @@ import Logo from "../assets/portLogo.svg";
 const Nav = () => {
   return (
     <StyledNav>
-      <StyledList>
-        <li>
-          <img src={Logo} alt="John's JL Logo" />
-        </li>
-      </StyledList>
-      <StyledList>
-        <li>
-          <Link to="projects" smooth={true} duration={500} className="nav-link">
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link to="about" smooth={true} duration={500} className="nav-link">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link to="contact" smooth={true} duration={500} className="nav-link">
-            Contact
-          </Link>
-        </li>
-      </StyledList>
+      <StyledContainer>
+        <StyledList>
+          <li>
+            <img src={Logo} alt="John's JL Logo" />
+          </li>
+        </StyledList>
+        <StyledList>
+          <li>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              className="nav-link"
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="about" smooth={true} duration={500} className="nav-link">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="nav-link"
+            >
+              Contact
+            </Link>
+          </li>
+        </StyledList>
+      </StyledContainer>
     </StyledNav>
   );
 };
@@ -43,10 +55,18 @@ const StyledNav = styled.nav`
   position: sticky;
   top: 0;
   z-index: 10;
-  max-width: 1900px;
-  margin: 0 auto;
+  width: 100%;
   background-color: #172932;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+`;
+
+const StyledContainer = styled.div`
+  width: 100%;
+  max-width: 1900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 const StyledList = styled.ul`
