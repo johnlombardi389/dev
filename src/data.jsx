@@ -9,6 +9,10 @@ import layoutGen from "./assets/layoutGen.png";
 import musicPlay from "./assets/musicPlay.png";
 import pixelSketch from "./assets/pixelSketch.png";
 import recipeReady from "./assets/recipeReady.png";
+import capEmail from "./assets/capEmail.png";
+import uberEmail from "./assets/uberEmail.png";
+import kaEmail from "./assets/kaEmail.png";
+import nytEmail from "./assets/nytEmail.png";
 
 const projectData = () => [
   {
@@ -16,44 +20,66 @@ const projectData = () => [
     tag: "Promotional",
     title: "Recipe Ready",
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
-    demo: "https://johnlombardi389.github.io/uberemail/",
-    github: "https://github.com/johnlombardi389/uberemail",
+    demo: "https://johnlombardi389.github.io/recipe-ready/",
+    github: "https://github.com/johnlombardi389/recipe-ready",
     image: recipeReady,
     description:
-      "Created a promotional email for Uber using HTML and CSS, using the MJML framework.",
+      "Effortlessly organize your kitchen, get instant recipes tailored to your ingredients, and cut food waste. Try it for yourself using the test account (Username: test, Password: test)",
   },
   {
     id: 2,
     tag: "Transactional",
-    title: "Kitchen Aid Receipt Email",
+    title: "Pixel Sketch",
     tools: ["HTML", "&#x2022;", "CSS"],
-    demo: "https://johnlombardi389.github.io/kitchenaidemail/",
-    github: "https://github.com/johnlombardi389/kitchenaidemail",
+    demo: "https://johnlombardi389.github.io/pixel-sketch/",
+    github: "https://github.com/johnlombardi389/pixel-sketch",
     image: pixelSketch,
     description:
-      "Created a transactional email for KitchenAid using HTML and CSS, built with HTML Tables.",
+      "Create drawings on a digital canvas by manipulating pixels, a web-based application inspired by the classic etch-a-sketch toy.",
   },
   {
     id: 3,
     tag: "Promotional",
+    title: "Music Player",
+    tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
+    demo: "https://johnlombardi389.github.io/music-player/",
+    github: "https://github.com/johnlombardi389/music-player",
+    image: musicPlay,
+    description:
+      "Music player with the ability to skip forward and back. It features a custom progress bar for each song, with a unique gradient based on the song's cover art.",
+  },
+  {
+    id: 4,
+    tag: "Newsletter",
+    title: "Website Layout Generator",
+    tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
+    demo: "https://johnlombardi389.github.io/layout-generator/",
+    github: "https://github.com/johnlombardi389/layout-generator",
+    image: layoutGen,
+    description:
+      "A tool that both developers and designers can use for inspiration in creating websites. Each generation is completely random, making it easy for users to experiment with different layout options.",
+  },
+  {
+    id: 4,
+    tag: "Newsletter",
     title: "Capcom Promotional Email",
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
     demo: "https://johnlombardi389.github.io/capcomemail/",
     github: "https://github.com/johnlombardi389/capcomemail",
-    image: layoutGen,
+    image: capEmail,
     description:
       "Created a promotional email for Capcom using HTML and CSS, using the MJML framework.",
   },
   {
     id: 4,
     tag: "Newsletter",
-    title: "NYT Cooking Newsletter Email",
+    title: "Uber Promotional Email",
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
-    demo: "https://johnlombardi389.github.io/nytcookingemail/",
-    github: "https://github.com/johnlombardi389/nytcookingemail",
-    image: musicPlay,
+    demo: "https://johnlombardi389.github.io/uberemail/",
+    github: "https://github.com/johnlombardi389/uberemail",
+    image: uberEmail,
     description:
-      "Created a newsletter email for The New York Times Cooking using HTML and CSS, using the MJML framework.",
+      "Created a promotional email for Uber using HTML and CSS, using the MJML framework.",
   },
 ];
 
