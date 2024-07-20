@@ -9,11 +9,11 @@ const Project = ({ title, tools, description, image, demo, github }) => {
       </div>
       <div className="project-desc">
         <p className="project-title">{title}</p>
-        {/* <StyledTools>
+        <StyledTools>
           {tools.map((tool, index) => (
             <li key={index} dangerouslySetInnerHTML={{ __html: tool }} />
           ))}
-        </StyledTools> */}
+        </StyledTools>
         <p className="project-summary">{description}</p>
         <div className="buttons">
           <a href={demo} target="_blank" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ const StyledProject = styled.div`
       width: 100%;
       height: auto;
       object-fit: cover;
-      display: block; /* Added this line to remove the gap */
+      display: block;
     }
   }
 
@@ -126,16 +126,16 @@ const StyledProject = styled.div`
   }
 `;
 
-// const StyledTools = styled.ul`
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-//   align-items: center;
-//   list-style: none;
-//   padding-bottom: 2rem;
+const StyledTools = styled.ul`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 0.5rem;
 
-//   li {
-//     margin-right: 0.5rem;
-//     font-size: 0.8rem;
-//   }
-// `;
+  li {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+  }
+`;

@@ -21,22 +21,22 @@ const Projects = () => {
           All
         </button>
         <button
-          onClick={() => setFilter("Transactional")}
-          className={filter === "Transactional" ? "active" : ""}
+          onClick={() => setFilter("React")}
+          className={filter === "React" ? "active" : ""}
         >
-          Transactional
+          React
         </button>
         <button
-          onClick={() => setFilter("Promotional")}
-          className={filter === "Promotional" ? "active" : ""}
+          onClick={() => setFilter("JavaScript")}
+          className={filter === "JavaScript" ? "active" : ""}
         >
-          Promotional
+          JavaScript
         </button>
         <button
-          onClick={() => setFilter("Newsletter")}
-          className={filter === "Newsletter" ? "active" : ""}
+          onClick={() => setFilter("Email")}
+          className={filter === "Email" ? "active" : ""}
         >
-          Newsletter
+          Email
         </button>
       </FilterOptions>
 
