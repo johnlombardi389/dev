@@ -23,7 +23,7 @@ const Intro = () => {
       exit="exit"
     >
       <Title>John Lombardi</Title>
-      <Subtitle>Email Developer</Subtitle>
+      <Subtitle>Front-End Web Developer</Subtitle>
       {/* <Description>I make cool emails for you.</Description> */}
       <LoadingIndicator>
         <DelayedDot />

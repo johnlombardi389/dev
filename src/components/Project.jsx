@@ -110,7 +110,6 @@ const StyledProject = styled.div`
 
         &:hover {
           background-color: #274555;
-          box-shadow: rgb(38, 57, 77) 0px 15px 15px -15px;
         }
       }
 

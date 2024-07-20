@@ -3,16 +3,22 @@ import Nytimescooking from "./assets/nytimescooking.png";
 import Kitchenaid from "./assets/kitchenaid.png";
 import Capcom from "./assets/capcom.png";
 import Uber from "./assets/uber.png";
+// new photos
+import empireAuto from "./assets/empireAuto.png";
+import layoutGen from "./assets/layoutGen.png";
+import musicPlay from "./assets/musicPlay.png";
+import pixelSketch from "./assets/pixelSketch.png";
+import recipeReady from "./assets/recipeReady.png";
 
 const projectData = () => [
   {
     id: 1,
     tag: "Promotional",
-    title: "Uber Promotional Email",
+    title: "Recipe Ready",
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
     demo: "https://johnlombardi389.github.io/uberemail/",
     github: "https://github.com/johnlombardi389/uberemail",
-    image: Uber,
+    image: recipeReady,
     description:
       "Created a promotional email for Uber using HTML and CSS, using the MJML framework.",
   },
