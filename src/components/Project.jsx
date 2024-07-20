@@ -32,34 +32,24 @@ export default Project;
 
 const StyledProject = styled.div`
   display: flex;
+  flex-direction: column;
   max-width: 550px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-
-  @media (max-width: 900px) {
-    flex-direction: column;
-    margin: 0 auto;
-  }
-
-  @media (min-width: 901px) {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
 
   .project-img {
-    flex: 1;
-
     img {
       width: 100%;
-      height: 100%;
+      height: auto;
       object-fit: cover;
+      display: block; /* Added this line to remove the gap */
     }
   }
 
   .project-desc {
-    flex: 1;
     background-color: #f9c04d;
-    padding: 2rem;
-    max-width: 100%;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,22 +60,22 @@ const StyledProject = styled.div`
     }
 
     .project-title {
-      padding: 0.5rem 0;
+      padding: 0.25rem 0;
       font-family: "Signika", sans-serif;
       font-size: 1.25rem;
       font-weight: 700;
       letter-spacing: 0.025rem;
       line-height: 1.5rem;
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
     }
 
     .project-summary {
-      padding: 0.5rem 0;
+      padding: 0.25rem 0;
       font-family: "Open Sans", sans-serif;
       font-weight: 400;
       font-size: 1rem;
       line-height: 1.5rem;
-      padding-bottom: 1rem;
+      padding-bottom: 0.5rem;
     }
 
     .buttons {

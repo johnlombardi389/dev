@@ -29,7 +29,7 @@ const projectData = () => [
     tools: ["HTML", "&#x2022;", "CSS"],
     demo: "https://johnlombardi389.github.io/kitchenaidemail/",
     github: "https://github.com/johnlombardi389/kitchenaidemail",
-    image: Kitchenaid,
+    image: pixelSketch,
     description:
       "Created a transactional email for KitchenAid using HTML and CSS, built with HTML Tables.",
   },
@@ -40,7 +40,7 @@ const projectData = () => [
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
     demo: "https://johnlombardi389.github.io/capcomemail/",
     github: "https://github.com/johnlombardi389/capcomemail",
-    image: Capcom,
+    image: layoutGen,
     description:
       "Created a promotional email for Capcom using HTML and CSS, using the MJML framework.",
   },
@@ -51,7 +51,7 @@ const projectData = () => [
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
     demo: "https://johnlombardi389.github.io/nytcookingemail/",
     github: "https://github.com/johnlombardi389/nytcookingemail",
-    image: Nytimescooking,
+    image: musicPlay,
     description:
       "Created a newsletter email for The New York Times Cooking using HTML and CSS, using the MJML framework.",
   },
