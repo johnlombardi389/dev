@@ -1,10 +1,10 @@
 # HTML Email Developer Portfolio
 
-This project serves as a showcase of my skills and expertise in crafting visually appealing and functional HTML emails. In this portfolio, you'll find a collection of emails designed and developed using modern web technologies.
+This project serves as a showcase of my skills and expertise in crafting visually appealing and functional websites, applications, and emails.
 
 ## Link
 
-- Live Site URL: [HTML Email Portfolio Website](https://johnlombardi389.github.io/emaildev/)
+- Live Site URL: [Front-End Web Developer Portfolio Website](https://johnlombardi389.github.io/dev/)
 
 ## Tools
 
