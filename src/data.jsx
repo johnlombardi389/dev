@@ -17,7 +17,7 @@ import nytEmail from "./assets/nytEmail.png";
 const projectData = () => [
   {
     id: 1,
-    tag: "React",
+    tag: ["React", "JavaScript"],
     title: "Recipe Ready",
     tools: ["React", "&#x2022;", "Python", "&#x2022;", "Django"],
     demo: "https://johnlombardi389.github.io/recipe-ready/",
@@ -28,7 +28,7 @@ const projectData = () => [
   },
   {
     id: 2,
-    tag: "JavaScript",
+    tag: ["JavaScript"],
     title: "Pixel Sketch",
     tools: ["JavaScript", "&#x2022;", "CSS", "&#x2022;", "HTML"],
     demo: "https://johnlombardi389.github.io/pixel-sketch/",
@@ -39,7 +39,7 @@ const projectData = () => [
   },
   {
     id: 3,
-    tag: "React",
+    tag: ["React", "JavaScript"],
     title: "Music Player",
     tools: ["React", "&#x2022;", "JavaScript", "&#x2022;", "Sass"],
     demo: "https://johnlombardi389.github.io/music-player/",
@@ -50,18 +50,18 @@ const projectData = () => [
   },
   {
     id: 4,
-    tag: "JavaScript",
-    title: "Website Layout Generator",
-    tools: ["JavaScript", "&#x2022;", "CSS", "&#x2022;", "HTML"],
-    demo: "https://johnlombardi389.github.io/layout-generator/",
-    github: "https://github.com/johnlombardi389/layout-generator",
-    image: layoutGen,
+    tag: ["Email"],
+    title: "Uber Promotional Email",
+    tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
+    demo: "https://johnlombardi389.github.io/uberemail/",
+    github: "https://github.com/johnlombardi389/uberemail",
+    image: uberEmail,
     description:
-      "A tool that both developers and designers can use for inspiration in creating websites. Each generation is completely random, making it easy for users to experiment with different layout options.",
+      "Created a promotional email for Uber using HTML and CSS, using the MJML framework.",
   },
   {
     id: 5,
-    tag: "Email",
+    tag: ["Email"],
     title: "Capcom Promotional Email",
     tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
     demo: "https://johnlombardi389.github.io/capcomemail/",
@@ -72,14 +72,14 @@ const projectData = () => [
   },
   {
     id: 6,
-    tag: "Email",
-    title: "Uber Promotional Email",
-    tools: ["HTML", "&#x2022;", "CSS", "&#x2022;", "MJML"],
-    demo: "https://johnlombardi389.github.io/uberemail/",
-    github: "https://github.com/johnlombardi389/uberemail",
-    image: uberEmail,
+    tag: ["JavaScript"],
+    title: "Website Layout Generator",
+    tools: ["JavaScript", "&#x2022;", "CSS", "&#x2022;", "HTML"],
+    demo: "https://johnlombardi389.github.io/layout-generator/",
+    github: "https://github.com/johnlombardi389/layout-generator",
+    image: layoutGen,
     description:
-      "Created a promotional email for Uber using HTML and CSS, using the MJML framework.",
+      "A tool that both developers and designers can use for inspiration in creating websites. Each generation is completely random, making it easy for users to experiment with different layout options.",
   },
 ];
 

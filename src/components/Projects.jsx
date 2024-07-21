@@ -8,7 +8,9 @@ const Projects = () => {
   const data = projectData();
 
   const filteredProjects =
-    filter === "All" ? data : data.filter((project) => project.tag === filter);
+    filter === "All"
+      ? data
+      : data.filter((project) => project.tag.includes(filter));
 
   return (
     <StyledProjects id="projects">
