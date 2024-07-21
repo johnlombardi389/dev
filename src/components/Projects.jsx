@@ -63,6 +63,7 @@ const StyledProjects = styled.section`
     letter-spacing: 0.075rem;
     font-size: 2rem;
     margin-bottom: 1rem;
+    padding-top: 1rem;
   }
 `;
 
