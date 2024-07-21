@@ -38,8 +38,9 @@ const About = () => {
           <AboutListItem>
             <FaBook />
             <p>
-              I also love to cook and you'll often find me experimenting in the
-              kitchen.
+              When I'm not coding, I love to cook, play video games, travel, and
+              explore new languages and cultures. Currently, I'm learning
+              Vietnamese (as well as C#).
             </p>
           </AboutListItem>
         </AboutList>
@@ -53,6 +54,7 @@ export default About;
 const StyledAbout = styled.section`
   max-width: 1200px;
   margin: 5rem auto 2rem;
+  padding: 0 1rem;
 `;
 
 const AboutContent = styled.div`
@@ -63,16 +65,17 @@ const AboutContent = styled.div`
 
 const AboutText = styled.div`
   max-width: 800px;
+  text-align: left;
   h2 {
     font-family: "Signika", sans-serif;
     font-size: 2rem;
+    text-align: center;
     color: #274555;
     letter-spacing: 0.075rem;
     margin-top: 5rem;
     margin-bottom: 1rem;
     padding-left: 0;
     padding-right: 2rem;
-    text-align: center;
   }
 
   p {
@@ -104,27 +107,29 @@ const AboutList = styled.ul`
   align-items: center;
   list-style: none;
   max-width: 800px;
-  margin: 0 2rem;
+  margin: 0;
+  padding: 0;
 `;
 
 const AboutListItem = styled.li`
   display: flex;
   flex-direction: row;
   align-items: start;
-  margin-right: 2rem;
+  margin: 2rem 0;
+  width: 100%;
   svg {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     color: #ff7761;
     margin-right: 1rem;
-    padding-bottom: 0.75rem;
   }
   p {
     font-family: "Open Sans", sans-serif;
     font-size: 0.9rem;
     line-height: 1.6;
     color: #666;
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    flex: 1;
 
     a {
       color: #274555;

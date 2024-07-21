@@ -24,7 +24,6 @@ const Intro = () => {
     >
       <Title>John Lombardi</Title>
       <Subtitle>Front-End Web Developer</Subtitle>
-      {/* <Description>I make cool emails for you.</Description> */}
       <LoadingIndicator>
         <DelayedDot />
         <DelayedDot />
@@ -59,14 +58,6 @@ const Subtitle = styled.p`
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 `;
-
-// const Description = styled.p`
-//   font-size: 1rem;
-//   color: #999;
-//   font-family: "Open Sans", sans-serif;
-//   font-weight: 300;
-//   margin-bottom: 1.2rem;
-// `;
 
 const Dot = styled.div`
   width: 10px;
