@@ -37,6 +37,7 @@ const StyledProject = styled.div`
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   margin: 0 auto;
+  flex-grow: 1;
 
   .project-img {
     img {
@@ -52,8 +53,8 @@ const StyledProject = styled.div`
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    justify-content: space-between;
+    flex-grow: 1;
 
     @media (max-width: 809px) {
       padding: 1rem;
@@ -76,6 +77,7 @@ const StyledProject = styled.div`
       font-size: 1rem;
       line-height: 1.5rem;
       padding-bottom: 0.5rem;
+      flex-grow: 1;
     }
 
     .buttons {
@@ -129,13 +131,15 @@ const StyledProject = styled.div`
 const StyledTools = styled.ul`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   list-style: none;
   padding: 0.75rem 0;
 
   li {
     margin-right: 0.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
     font-size: 0.8rem;
   }
 `;
