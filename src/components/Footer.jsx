@@ -55,7 +55,7 @@ const IconContainer = styled.div`
     transition: color 0.3s;
 
     &:hover {
-      color: #ff7761;
+      color: #f9a11b;
     }
   }
 
