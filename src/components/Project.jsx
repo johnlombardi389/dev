@@ -17,7 +17,7 @@ const Project = ({ title, tools, description, image, demo, github }) => {
         <p className="project-summary">{description}</p>
         <div className="buttons">
           <a href={demo} target="_blank" rel="noopener noreferrer">
-            <button className="demo-button">View Email</button>
+            <button className="demo-button">Try Project</button>
           </a>
           <a href={github} target="_blank" rel="noopener noreferrer">
             <button className="github-button">See Code</button>
@@ -90,13 +90,13 @@ const StyledProject = styled.div`
         font-family: "Signika", sans-serif;
         font-weight: 600;
         border: none;
-        padding: 1rem 2rem;
+        padding: 0.75rem 2rem;
         font-size: 1.1rem;
         margin-top: 1rem;
         margin-right: 1.25rem;
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        transition: color 0.3s ease, box-shadow 0.3s ease;
+        transition: color 0.3s ease;
 
         &:hover {
           background-color: #274555;
@@ -132,7 +132,7 @@ const StyledTools = styled.ul`
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding-bottom: 0.5rem;
+  padding: 0.75rem 0;
 
   li {
     margin-right: 0.5rem;
