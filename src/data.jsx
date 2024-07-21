@@ -24,7 +24,7 @@ const projectData = () => [
     github: "https://github.com/johnlombardi389/recipe-ready",
     image: recipeReady,
     description:
-      "Effortlessly organize your kitchen, get instant recipes tailored to your ingredients, and cut food waste. Try it for yourself using the test account (Username: test, Password: test)",
+      "Effortlessly organize your kitchen, get instant recipes tailored to your ingredients, and cut food waste.",
   },
   {
     id: 2,
